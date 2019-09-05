@@ -1,0 +1,10 @@
+<div>
+  
+  <input type="text" [(ngModel)]="queryString" name="queryString" placeholder="Search to type">
+
+  <ul>
+    <li *ngFor="let n of names | FilterPipe: queryString">
+      {{n}}
+    </li>
+  </ul>
+</div>
