@@ -5,9 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   names:any;
+
   constructor(){
-    this.names = ['Prashobh','Abraham','Anil','Sam','Natasha','Marry','Zian','karan']
+    this.names =  ['tiger', 'elephant', 'bear', 'panther', 'falcon', 'cat', 'dog']
   }
 }
+
+// ['tiger', 'elephant', 'bear', 'panther', 'falcon', 'cat', 'dog']

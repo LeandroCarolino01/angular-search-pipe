@@ -1,10 +1,9 @@
 <div>
-  
-  <input type="text" [(ngModel)]="queryString" name="queryString" placeholder="Search to type">
-
+  <h1>Testing purposes</h1>
+  <input type="text" [(ngModel)]="queryString" placeholder="enter an animal" name="queryString">
   <ul>
-    <li *ngFor="let n of names | FilterPipe: queryString">
-      {{n}}
+    <li *ngFor="let animal of names | FilterPipe: queryString">
+      {{animal}}
     </li>
-  </ul>
+  </ul> 
 </div>
